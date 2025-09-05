@@ -1,0 +1,19 @@
+# React Native project create
+npx react-native init ChatChut
+
+cd ChatChut
+
+# Firebase library install (for login, chat, storage)
+npm install @react-native-firebase/app @react-native-firebase/auth @react-native-firebase/firestore @react-native-firebase/storage
+
+# Google Sign-in
+npm install @react-native-google-signin/google-signin
+
+# Navigation
+npm install @react-navigation/native @react-navigation/stack react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context react-native-vector-icons
+
+# Video Call (WebRTC)
+npm install react-native-webrtc
+
+# Video Player (Reels)
+npm install react-native-video
